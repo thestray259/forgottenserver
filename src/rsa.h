@@ -19,7 +19,7 @@ public:
 	void decrypt(char* msg) const;
 
 private:
-	CryptoPP::RSA::PrivateKey pk;
+	//CryptoPP::RSA::PrivateKey pk;
 };
 
 #endif // FS_RSA_H

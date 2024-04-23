@@ -7,7 +7,7 @@
 
 #include "configmanager.h"
 
-#include <mysql/errmsg.h>
+#include <errmsg.h>
 
 extern ConfigManager g_config;
 

@@ -20,12 +20,13 @@
 #include <cassert>
 #include <concepts>
 #include <condition_variable>
-#include <cryptopp/rsa.h>
+//#include <cryptopp/rsa.h>
+#include <rsa.h>
 #include <cstdint>
 #include <cstdlib>
 #include <deque>
 #include <filesystem>
-#include <fmt/color.h>
+//#include <fmt/color.h>
 #include <forward_list>
 #include <functional>
 #include <iostream>
@@ -34,9 +35,9 @@
 #include <map>
 #include <memory>
 #include <mutex>
-#include <mysql/mysql.h>
+#include <mysql-connector-c/include/mysql.h>
 #include <optional>
-#include <pugixml.hpp>
+#include <pugixml/include/pugixml.hpp>
 #include <random>
 #include <set>
 #include <sstream>
@@ -53,7 +54,7 @@
 #if __has_include("luajit/lua.hpp")
 #include <luajit/lua.hpp>
 #else
-#include <lua.hpp>
+#include <luajit/include/lua.hpp>
 #endif
 
 #endif // FS_OTPCH_H
